@@ -1,2 +1,2 @@
 res://Scenes/TestScene.scn
-res://Scripts/PlayerMovement.cs
+res://Scenes/TileMap.gd
