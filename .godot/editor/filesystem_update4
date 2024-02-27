@@ -1,3 +1,5 @@
 res://Prefabs/player.tscn
 res://Scenes/TestScene.scn
 res://Scripts/player.gd
+res://Scripts/character.gd
+res://Scripts/TileMap.gd

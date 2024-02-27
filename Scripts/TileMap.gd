@@ -15,7 +15,7 @@ func move(vec):
 	
 	$Sprite2D.position.x = map_to_local((vec)).x
 	$Sprite2D.position.y = map_to_local((vec)).y
-	"""
+	
 	if($Sprite2D.get_node(Node2D).scale)
 		
 
@@ -24,5 +24,5 @@ func _input(event):
 		print(local_to_map(get_viewport().get_mouse_position()))
 		move(local_to_map(get_viewport().get_mouse_position()))
 
-
+"""
 
